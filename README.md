@@ -4,7 +4,9 @@ Welcome to the Level Ground website repository! This website is designed to show
 
 ## Preview
 
-![Level Ground Website Preview](img/../template/img/LevelGround.gif)
+<div align="center">
+  <img src="img/../template/img/LevelGround.gif" alt="Level Ground Website Preview" width="500px">
+</div>
 
 ## Key Features
 
