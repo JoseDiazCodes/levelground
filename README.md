@@ -35,11 +35,6 @@ Ensure you have the following installed on your local development machine:
 3. Make your changes and test them locally.
 4. Submit a pull request with a clear description of your updates.
 
-## Credits
-
-- Website Design and Development: [Your Name/Team Name]
-- Images and Content: Level Ground Organization
-
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
