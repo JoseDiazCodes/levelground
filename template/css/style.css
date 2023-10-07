@@ -1,0 +1,468 @@
+/* Box Model Hack */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: "Oswald", sans-serif;
+}
+/* Clear fix hack */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/* body {
+} */
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header,
+.fourth {
+	background-color: rgba(102, 118, 138, 255);
+}
+.donate-button {
+	background-color: white;
+	color: rgba(102, 118, 138, 255);
+	padding: 1rem 2rem;
+	border: none;
+	border-radius: 1.5rem;
+	font-size: 1.6rem;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.donate-button:hover {
+	background-color: grey;
+}
+
+.nav-left ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.nav-left ul li {
+	display: inline-block;
+	padding: 0;
+}
+
+header ul li a {
+	text-decoration: none;
+	color: inherit;
+	margin-left: 3rem;
+	font-size: 1.5rem;
+	color: white;
+}
+
+header {
+	width: 100%;
+	clear: both;
+	height: 10rem;
+}
+.nav-left,
+.nav-middle,
+.button {
+	width: 33.333%;
+	float: left;
+	margin-top: 2rem;
+}
+
+.nav-middle img {
+	width: 13%;
+	height: 4rem;
+	margin-left: 22rem;
+}
+
+.button {
+	padding-left: 38rem;
+}
+
+.fourth,
+.two-forths,
+.three-forths {
+	width: 100%;
+	font-size: 3rem;
+	text-align: center;
+	background-color: rgba(102, 118, 138, 255);
+}
+
+.fourth h1,
+.fourth p + p + p {
+	margin: 0;
+	padding-bottom: 4rem;
+}
+
+.fourth {
+	color: white;
+}
+
+span {
+	display: block;
+	padding: 9rem 0rem 4rem 1rem;
+	font-size: 1.5rem;
+}
+
+.two-forths {
+	background-color: white;
+	padding: 20rem;
+}
+
+.two-forths h3 {
+	padding-bottom: 2rem;
+}
+
+.two-forths p {
+	padding: 0 17rem;
+}
+
+h4 img {
+	height: 2.2rem;
+}
+
+.twinA,
+.twinB {
+	width: 50%;
+	float: left;
+	background-color: rgba(219, 223, 226, 255);
+	padding: 15rem;
+}
+
+.twinA img,
+.twinB img {
+	width: 95%;
+	height: 25rem;
+}
+
+.twinA h4,
+.twinB h4,
+.twinA p,
+.twinB p {
+	padding-top: 4rem;
+}
+
+.twinA p,
+.twinB p {
+	padding-bottom: 5rem;
+	font-size: 2rem;
+}
+
+.see-classes {
+	padding: 2rem 6rem;
+	font-size: 2rem;
+	background-color: rgba(219, 223, 226, 255);
+}
+
+.whole {
+	clear: both;
+	width: 100%;
+	text-align: center;
+	font-size: 5rem;
+	padding: 10rem;
+}
+
+.whole p {
+	font-size: 3rem;
+	padding: 3rem 20rem;
+}
+
+.whole .see-classes {
+	background-color: white;
+}
+
+footer {
+	background-color: rgba(22, 31, 42, 255);
+}
+
+.img {
+	font-size: 2.5rem;
+	padding-bottom: 1rem;
+}
+
+.footer-left {
+	width: 70%;
+	float: left;
+	padding-left: 3rem;
+}
+
+footer span {
+	margin: 0;
+	padding: 0;
+}
+
+.footer-right {
+	width: 30%;
+	float: left;
+}
+
+.blue {
+	color: rgba(93, 109, 127, 255);
+}
+
+.z,
+.x {
+	padding-bottom: 1rem;
+	padding-left: 1rem;
+}
+
+.z li,
+.z a,
+.x li,
+.x a {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+}
+
+.x a,
+.z a {
+	padding: 0.5rem 2rem 0rem 0rem;
+}
+
+.fa-envelope:before {
+	padding: 1rem;
+}
+
+.fa-facebook-square:before,
+.fa-square-facebook:before {
+	content: "\f082";
+	padding: 1rem;
+}
+
+.footer-right p {
+	text-align: right;
+	color: white;
+	font-size: 1.6rem;
+	margin-right: 2rem;
+}
+
+.bottom-footer {
+	clear: both;
+	text-align: left;
+	width: 100%;
+	background-color: rgba(22, 31, 42, 255);
+	/* overflow: auto; */
+	height: auto;
+}
+
+.bord {
+	overflow: auto;
+	height: 0.1rem;
+	width: 100%;
+	background-color: white;
+}
+
+.bottom-footer p {
+	color: white;
+	margin-left: 4rem;
+	font-size: 1.4rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.footer-left,
+.footer-right {
+	margin-top: 1rem;
+}
+
+.hamburger {
+	display: none;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@media (max-width: 1423px) {
+	.button {
+		padding-left: 34rem;
+	}
+}
+
+@media (max-width: 1305px) {
+	.button {
+		padding-left: 30rem;
+	}
+}
+
+@media (max-width: 1230px) {
+	.button {
+		padding-left: 27rem;
+	}
+
+	.fourth {
+		font-size: 2.5rem;
+	}
+}
+
+@media (max-width: 1130px) {
+	.nav-middle img {
+		margin-left: 18rem;
+	}
+}
+
+@media (max-width: 1105px) {
+	.button {
+		padding-left: 23rem;
+	}
+}
+
+@media (max-width: 1100px) {
+	.two-forths p {
+		padding: 0;
+	}
+
+	.twinA,
+	.twinB {
+		width: 100%;
+	}
+
+	.twinA img,
+	.twinB img {
+		width: 60%;
+	}
+
+	.whole p {
+		font-size: 2.25rem;
+		/* padding: 3rem 20rem; */
+		padding-top: 1rem;
+	}
+
+	.nav-middle img {
+		width: 22%;
+		margin-left: 15rem;
+	}
+}
+
+@media (max-width: 990px) {
+	.fourth {
+		font-size: 2rem;
+	}
+
+	.button {
+		padding-left: 19rem;
+	}
+
+	.nav-middle img {
+		margin-left: 15rem;
+	}
+
+	.nav-middle img {
+		width: 26%;
+	}
+
+	.two-forths {
+		padding: 6rem;
+	}
+
+	.whole p {
+		padding: 3rem 5rem;
+	}
+}
+
+@media (max-width: 859px) {
+	.button {
+		padding-left: 15rem;
+	}
+
+	.twinA,
+	.twinB {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+
+	.two-forths {
+		background-color: white;
+		padding: 5rem;
+	}
+
+	.whole p {
+		padding: 3rem 0rem;
+	}
+
+	.nav-middle img {
+		margin-left: 12rem;
+	}
+}
+
+@media (max-width: 750px) {
+	.nav-middle img {
+		width: 31%;
+	}
+
+	.button {
+		padding-left: 12rem;
+	}
+
+	.two-forths p {
+		font-size: 2.5rem;
+	}
+}
+
+@media (max-width: 700px) {
+	.twinA img,
+	.twinB img {
+		width: 100%;
+	}
+}
+
+@media (max-width: 680px) {
+	.nav-middle img {
+		margin-left: 8rem;
+	}
+}
+
+@media (max-width: 660px) {
+	.nav-left ul {
+		display: none;
+	}
+
+	.hamburger {
+		display: block;
+		color: white;
+		font-size: 5rem;
+	}
+
+	.donate-button {
+		display: none;
+	}
+
+	.nav-middle img {
+		margin-left: 0rem;
+		display: none;
+	}
+
+	.nav-middle {
+		width: 50%;
+		text-align: right;
+	}
+	.hamburger {
+		width: 50%;
+	}
+
+	.twinA img,
+	.twinB img {
+		display: none;
+	}
+
+	.twinA,
+	.twinB {
+		padding: 7rem;
+	}
+}
