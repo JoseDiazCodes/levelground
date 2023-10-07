@@ -2,6 +2,10 @@
 
 Welcome to the Level Ground website repository! This website is designed to showcase the initiatives and efforts of Level Ground, an organization focused on promoting grit and resilience in urban youth through Mixed Martial Arts. The site is crafted with a responsive design primarily using CSS floats.
 
+## Preview
+
+![Level Ground Website Preview](img/../template/img/LevelGround.gif)
+
 ## Key Features
 
 - **Responsive Design**: Built using CSS floats, the website ensures optimal viewing across a range of devices from mobile phones to desktop monitors.
